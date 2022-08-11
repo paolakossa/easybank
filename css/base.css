@@ -1,0 +1,32 @@
+:root{
+	--azul-escuro: hsl(233, 26%, 24%);
+	--verde-lima:hsl(136, 65%, 51%);
+	--ciano-brilhante: hsl(192, 70%, 51%);
+	--azul-acinzentado: hsl(233, 8%, 62%);
+	--azul-acinzentado-claro: hsl(220, 16%, 96%);
+	--cinza-muito-claro: hsl(0, 0%, 98%);
+	--branco: hsl(0, 0%, 100%);
+
+	--tamanho-fonte: 18px;
+	--peso-fonte-baixo: 300;
+	--peso-fonte-medio: 400;
+	--peso-fonte-alto: 700;
+
+	--familia-fonte: 'Public Sans', sans-serif;
+}
+
+	
+body{
+
+	font-family: var(--familia-fonte);
+	}
+
+.attribution { 
+
+	font-size: 11px; text-align: center; 
+	}
+
+.attribution a { 
+
+    color: hsl(228, 45%, 44%); 
+    }

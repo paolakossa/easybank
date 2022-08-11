@@ -1,0 +1,48 @@
+.intro-mobile{
+	width: 100%;
+
+}
+
+.mockup-mobile_img{
+	width: 100%;
+	margin-top: -30rem;
+	
+}
+
+.intro-desktop{
+    display: none;
+}
+
+.intro-mobile_titulo{
+	font-size: 35px;
+	width: 70%;
+	word-wrap: break-word;
+	text-align: center;
+	margin-left: 4rem;
+	margin-top: 2rem;
+	color: var(--azul-escuro);
+	
+}
+
+.intro-moblie_paragrafo{
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	text-align: justify-all;
+	color:var(--azul-acinzentado);
+	line-height: 1.5rem;
+}
+
+.intro-mobile_btn{
+	margin-top: 1.5rem;
+	margin-left: 7rem;
+	background: linear-gradient(90deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+	color: var(--branco);
+	border-radius: 30px;
+	border: none;
+	padding: .75rem;
+	width: 40%;
+
+
+
+}
