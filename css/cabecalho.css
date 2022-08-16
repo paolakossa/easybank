@@ -104,4 +104,78 @@ cursor: pointer;
     display: none;
  }
 
- 
+@media screen and  (min-width:900px) {
+
+    #header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header_btn{
+    display: flex;
+    margin-top: 1.5rem;
+    left: 70rem;
+    background: linear-gradient(90deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    color: var(--branco);
+    border-radius: 30px;
+    border: none;
+    padding: 1rem;
+    width: 15%;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-weight: var(--peso-fonte-alto);
+
+}
+
+
+.header_logo {
+    margin-left: 10rem;
+    width: 13%;
+    margin-top: 2rem;
+
+}
+
+#nav {
+    text-align: center;
+}
+
+#menu{
+
+    display: flex;
+    height: 10vh;
+    visibility: visible;
+    position: absolute;
+    left: 30rem;
+    top: 1rem;
+    width: 38%;
+
+    
+
+}
+
+#btn-mobile{
+    display: none;
+
+}
+
+#hamburger{
+    display: none;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+    margin:  1rem;
+    font-size: 18px;
+    font-weight: var(--peso-fonte-medio);
+    color: var(--azul-acinzentado);
+
+   
+}
+}
