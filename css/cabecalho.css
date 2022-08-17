@@ -112,6 +112,7 @@ cursor: pointer;
     align-items: center;
     justify-content: space-between;
     
+    
 }
 
 .header_btn{
@@ -130,6 +131,7 @@ cursor: pointer;
     font-size: 18px;
     margin-bottom: 1rem;
     font-weight: var(--peso-fonte-alto);
+    cursor: pointer;
 
 }
 
@@ -175,7 +177,12 @@ cursor: pointer;
     font-size: 18px;
     font-weight: var(--peso-fonte-medio);
     color: var(--azul-acinzentado);
+    cursor: pointer;
 
    
+}
+
+#menu a:hover{
+    border-bottom: solid var(--verde-lima);
 }
 }

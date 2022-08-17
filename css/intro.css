@@ -122,7 +122,10 @@
 	width: 15%;
 	font-size: 18px;
 	font-weight: var(--peso-fonte-alto);
+	cursor: pointer;
 	}
 
-
+	.principal-desktop_p_destaques{
+		padding: 1rem;
+	}
 }
